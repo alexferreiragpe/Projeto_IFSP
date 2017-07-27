@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3CB371"
+    android:onClick="SomaSemestre"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alexf.ifsp.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Sistema de Consultas"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView"
+                    android:layout_marginTop="26dp"
+                    android:text="Selecione o(s)  Semestre(s) Concluído(s):"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <Spinner
+                    android:id="@+id/cboSemestre"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignEnd="@+id/textView"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignRight="@+id/textView"
+                    android:layout_below="@+id/textView13"
+                    android:background="#66cca3"
+                    android:spinnerMode="dropdown"
+                    android:touchscreenBlocksFocus="false" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/cboSemestre"
+                    android:layout_marginTop="27dp"
+                    android:text="Disciplina(s) Concluida(s):"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chbMateria1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView14"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:enabled="false"
+                        android:nestedScrollingEnabled="false" />
+
+                    <CheckBox
+                        android:id="@+id/chbMateria2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/chbMateria1"
+                        android:layout_toEndOf="@+id/chbMateria1"
+                        android:layout_toRightOf="@+id/chbMateria1"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:enabled="false"
+                        android:nestedScrollingEnabled="false" />
+
+                    <CheckBox
+                        android:id="@+id/chbMateria3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/chbMateria2"
+                        android:layout_toEndOf="@+id/chbMateria2"
+                        android:layout_toRightOf="@+id/chbMateria2"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:enabled="false"
+                        android:nestedScrollingEnabled="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chbMateria4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/chbMateria3"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:enabled="false"
+                        android:nestedScrollingEnabled="false" />
+
+                    <CheckBox
+                        android:id="@+id/chbMateria5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/chbMateria4"
+                        android:layout_toLeftOf="@+id/chbMateria3"
+                        android:layout_toStartOf="@+id/chbMateria3"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:enabled="false"
+                        android:nestedScrollingEnabled="false" />
+
+                    <CheckBox
+                        android:id="@+id/chbMateria6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/chbMateria3"
+                        android:layout_alignStart="@+id/chbMateria3"
+                        android:layout_alignTop="@+id/chbMateria5"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:enabled="false"
+                        android:nestedScrollingEnabled="false" />
+
+                    <CheckBox
+                        android:id="@+id/chbMateria7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/chbMateria6"
+                        android:layout_toEndOf="@+id/chbMateria6"
+                        android:layout_toRightOf="@+id/chbMateria6"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:enabled="false"
+                        android:nestedScrollingEnabled="false"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <Button
+                    android:id="@+id/btnAdicionar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#66cca3"
+                    android:text="Calcular Porcentagem Concluída" />
+
+                <Button
+                    android:id="@+id/btnReiniciar"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/accent_material_light"
+                    android:text="Reiniciar Cálculo" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txtTotal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_above="@+id/textView2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="#66cca3"
+                    android:text="   Porcentagem Concluída do Curso =  0 %"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="fill_parent"
+                    android:layout_height="15dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

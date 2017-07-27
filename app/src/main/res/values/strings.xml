@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">IFSP Campinas</string>
+    <string name="ifsp">Sobre o Instituto</string>
+    <string name="dependencias">Requisitos por Disciplinas</string>
+    <string name="sobre">Sobre o APP</string>
+</resources>
