@@ -12,7 +12,6 @@
     <list default="true" id="c07ce17f-7161-4014-bc74-78df962292b0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sobre.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sobre.xml" />
     </list>
     <ignored path="Projeto_IFSP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -2624,7 +2623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501135385094</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Correções Finais">
+      <created>1501136047872</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1501136047872</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
