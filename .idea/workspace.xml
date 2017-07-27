@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c07ce17f-7161-4014-bc74-78df962292b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projeto_IFSP.iws" />
@@ -2602,6 +2601,14 @@
       <option name="presentableId" value="Default" />
       <updated>1466347569032</updated>
     </task>
+    <task id="LOCAL-00001" summary="Correções Finais">
+      <created>1501134968044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1501134968044</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2660,6 +2667,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Correções Finais" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correções Finais" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
